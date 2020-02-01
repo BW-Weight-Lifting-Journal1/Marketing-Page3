@@ -1,6 +1,16 @@
 body {
   background-color: #02848E;
 }
+body nav.top {
+  display: flex;
+  justify-content: end;
+  background-color: ;
+}
+body nav.top a {
+  border: solid red 1px;
+  border-radius: 5px;
+  display: flex;
+}
 body img {
   width: 298px;
   height: 302px;
