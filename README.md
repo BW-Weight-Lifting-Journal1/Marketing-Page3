@@ -1,8 +1,8 @@
 # Marketing-Page3
 
-a Main Page
+Main Page 
 
-then a About Us Page
+About Us Page
 
 
 
