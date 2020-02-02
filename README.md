@@ -1,19 +1,14 @@
 # Marketing-Page3
 
-Main Page 
+Main Page
 [x] - Nav
-[x]  - Title
-[x]  - image
-[]  - Buttons
+[x] - Title
+[x] - Image
+[]  - Button
 []  - Finalized Page
-
 
 About Us Page
-[]  - Nav
 []  - Title
-[]  - profile pics
-[]  - Information
-[]  - Buttons
+[]  - Image
+[]  - Button
 []  - Finalized Page
-
-
