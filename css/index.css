@@ -167,12 +167,12 @@ nav.top .Link {
   margin: 0px 10px;
   background-color: #006494;
   padding: 5px 30px;
-  color: #ECA400;
+  color: #eca400;
   font-size: x-large;
 }
 nav.top :hover {
-  background-color: #ECA400;
-  color: #0582CA;
+  background-color: #eca400;
+  color: #0582ca;
 }
 .Group .m {
   display: flex;
@@ -181,14 +181,14 @@ nav.top :hover {
   margin: 10px 20px;
 }
 .Group .m .ml :hover {
-  background-color: #ECA400;
+  background-color: #eca400;
   border-radius: 76px;
 }
 .Group1 .m2 {
   margin: 10px 20px;
 }
 .Group1 .m2 :hover {
-  background-color: #ECA400;
+  background-color: #eca400;
   border-radius: 76px;
 }
 .Group2 .m3 {
@@ -199,14 +199,14 @@ nav.top :hover {
   align-self: center;
 }
 .Group2 .m2 :hover {
-  background-color: #ECA400;
+  background-color: #eca400;
   border-radius: 76px;
 }
 .Group3 .m2 {
   margin: 10px 20px;
 }
 .Group3 .m2 :hover {
-  background-color: #ECA400;
+  background-color: #eca400;
   border-radius: 76px;
 }
 .navbottom {
@@ -225,16 +225,16 @@ nav.top :hover {
   font-size: 64px;
   line-height: 78px;
   text-align: center;
-  color: #ECA400;
+  color: #eca400;
   background-color: #006494;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .navbottom :hover {
-  background-color: #ECA400;
-  color: #0582CA;
+  background-color: #eca400;
+  color: #0582ca;
 }
 body {
-  background-color: #02848E;
+  background-color: #02848e;
   margin: 50px 0px 0px 0px;
   max-width: 100%;
 }
@@ -251,10 +251,10 @@ body .imgs {
   justify-content: center;
 }
 body .imgs img {
-  border: #02848E;
+  border: #02848e;
   width: 298px;
   height: 302px;
-  background-color: #02848E;
+  background-color: #02848e;
 }
 .Abs {
   display: flex;
@@ -262,7 +262,7 @@ body .imgs img {
 }
 .Abs .Abss {
   display: flex;
-  background-color: #A4BF52;
+  background-color: #a4bf52;
   margin: 30px 0px 15px 0px;
   padding: 10px 100px;
   width: 100%;
@@ -276,7 +276,7 @@ body .imgs img {
 .Group .Title {
   align-self: center;
   border-radius: 10px;
-  background-color: #ECA400;
+  background-color: #eca400;
   margin: 20px 0px 40px 0px;
   padding: 10px;
 }
@@ -293,12 +293,12 @@ body .imgs img {
   display: flex;
   flex-direction: column;
   height: 47rem;
-  background-color: #0582CA;
+  background-color: #0582ca;
 }
 .Group1 .Title1 {
   align-self: center;
   border-radius: 10px;
-  background-color: #ECA400;
+  background-color: #eca400;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px;
@@ -329,7 +329,7 @@ body .imgs img {
 .Group2 .Title1 {
   align-self: center;
   border-radius: 10px;
-  background-color: #ECA400;
+  background-color: #eca400;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px;
@@ -351,12 +351,12 @@ body .imgs img {
   display: flex;
   flex-direction: column;
   height: 47rem;
-  background-color: #0582CA;
+  background-color: #0582ca;
 }
 .Group3 .Title1 {
   align-self: center;
   border-radius: 10px;
-  background-color: #ECA400;
+  background-color: #eca400;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px;
@@ -379,7 +379,7 @@ body .imgs img {
 .Group3 .container .name1 .nameB {
   margin: 20px 0px;
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
   nav.top {
     display: flex;
     justify-content: center;
@@ -412,7 +412,7 @@ body .imgs img {
     margin: 20px 0px;
   }
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   body {
     width: 100%;
   }
