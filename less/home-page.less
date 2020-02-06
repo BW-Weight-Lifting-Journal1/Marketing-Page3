@@ -1,0 +1,241 @@
+// Main Page
+body {
+  background-color: @background-color;
+  margin: 50px 0px 0px 0px;
+  max-width: 100%;
+
+  h1 {
+      display: flex;
+      justify-content: center;
+      font-weight: bolder;
+      font-size: xx-large;
+      margin-top: 25px;
+      margin-bottom: 20px;
+  }
+
+
+  .imgs {
+      display: flex;
+      justify-content: center;
+
+      img {
+          border: @background-color;
+          width: 298px;
+          height: 302px;
+          background-color: @background-color;
+      }
+  }
+}
+
+
+
+//////////////////////////////////////////////////////////////////////
+
+
+// AboutUs Page
+
+
+// Title "Meet the Team"
+.Abs {
+  display: flex;
+  justify-content: center;
+
+  .Abss {
+    display: flex;
+    background-color: @background-color-straw;
+    margin: 30px 0px 15px 0px;
+    padding: 10px 100px;
+    width: 100%;
+  }
+}
+
+// Project Lead
+.Group {
+  .flex-layout(column);
+  align-items: center;
+  height: 46rem;
+
+  .Title { 
+    align-self: center;
+    border-radius: 10px;
+    background-color: @background-color-orange;
+    margin: 20px 0px 40px 0px;
+    padding: 10px;
+  }
+
+  .profile {
+    .profile-mix-in(15px, 151px, 153px, 75.5px);
+  }
+
+  .nameR{
+    margin: 20px 0px;
+  }
+}
+
+
+// Front End
+.Group1 {
+  .flex-layout(column);
+  height: 47rem;
+  background-color: @background-color-BlueNCS;
+  
+
+  .Title1 { 
+    align-self: center;
+    border-radius: 10px;
+    background-color: @color-orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+
+  .profile {
+    width: 151px;
+    height: 153px;
+    border-radius: 75.5px;
+    margin-top: 15px;
+  }
+
+  // Front End Container
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;  
+
+    // Chase Collins, Benjamin Ogzewalla
+
+    .name1 {
+      .flex-layout_2(column, center);
+
+      .nameC {
+        margin: 20px 0px;
+      }
+    }
+  }
+}
+
+
+
+// Back End
+
+
+.Group2 {
+  .flex-layout(column);
+  height: 47rem;
+
+  .Title1 { 
+    .Title1-2nd-style()
+  }
+
+  .profile {
+    .profile-mix-in(15px, 151px, 153px, 75.5px);
+  }
+
+  .img1 {
+    align-self: center;
+  }
+
+  .name {
+    align-self: center;
+    margin: 20px 0px;
+  }
+}
+
+// User Interface
+
+.Group3 {
+  .flex-layout(column);
+  height: 47rem;
+  background-color: @background-color-BlueNCS;
+
+  .Title1 { 
+    .Title1-2nd-style()
+  }
+
+  .profile {
+    .profile-mix-in(15px, 151px, 153px, 75.5px);
+  }
+
+  // User Interface Container
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;  
+
+    /// Jim Moua, Prapti Dave, Adan Rodriguez
+
+    .name1 {
+      .flex-layout_2(column, center);
+
+      .nameB {
+        margin: 20px 0px;
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////
+
+// Tablet Main Page 
+@media @tablet {
+  nav.top  {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    
+    .Link {
+      padding: 5px 20px;
+    }
+  }
+
+  .Group {
+    .name {
+      margin: 20px 0px;
+    }
+  }
+
+  .Group1 {
+    height: 84rem;
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      
+      .name1 {
+        margin: 20px 0px;
+      }
+    }
+  }
+
+  .Group3 {
+    height: 118rem;
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      
+      .name1 {
+        margin: 20px 0px;
+      }
+    }
+  }
+}
+
+
+// Phone Main Page
+@media @phone {
+  body {
+    width: 100%;
+
+    nav.top  {
+      .flex-layout_2(column, center);
+  
+      .Link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px
+      }
+    }
+  }
+}
