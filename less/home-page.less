@@ -5,35 +5,30 @@ body {
   max-width: 100%;
 
   h1 {
-      display: flex;
-      justify-content: center;
-      font-weight: bolder;
-      font-size: xx-large;
-      margin-top: 25px;
-      margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 25px;
+    margin-bottom: 20px;
   }
 
-
   .imgs {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
 
-      img {
-          border: @background-color;
-          width: 298px;
-          height: 302px;
-          background-color: @background-color;
-      }
+    img {
+      border: @background-color;
+      width: 298px;
+      height: 302px;
+      background-color: @background-color;
+    }
   }
 }
 
-
-
 //////////////////////////////////////////////////////////////////////
 
-
 // AboutUs Page
-
 
 // Title "Meet the Team"
 .Abs {
@@ -55,7 +50,7 @@ body {
   align-items: center;
   height: 46rem;
 
-  .Title { 
+  .Title {
     align-self: center;
     border-radius: 10px;
     background-color: @background-color-orange;
@@ -67,20 +62,18 @@ body {
     .profile-mix-in(15px, 151px, 153px, 75.5px);
   }
 
-  .nameR{
+  .nameR {
     margin: 20px 0px;
   }
 }
-
 
 // Front End
 .Group1 {
   .flex-layout(column);
   height: 47rem;
   background-color: @background-color-BlueNCS;
-  
 
-  .Title1 { 
+  .Title1 {
     align-self: center;
     border-radius: 10px;
     background-color: @color-orange;
@@ -100,7 +93,7 @@ body {
 
   .container {
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 
     // Chase Collins, Benjamin Ogzewalla
 
@@ -114,17 +107,14 @@ body {
   }
 }
 
-
-
 // Back End
-
 
 .Group2 {
   .flex-layout(column);
   height: 47rem;
 
-  .Title1 { 
-    .Title1-2nd-style()
+  .Title1 {
+    .Title1-2nd-style();
   }
 
   .profile {
@@ -148,8 +138,8 @@ body {
   height: 47rem;
   background-color: @background-color-BlueNCS;
 
-  .Title1 { 
-    .Title1-2nd-style()
+  .Title1 {
+    .Title1-2nd-style();
   }
 
   .profile {
@@ -160,7 +150,7 @@ body {
 
   .container {
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 
     /// Jim Moua, Prapti Dave, Adan Rodriguez
 
@@ -176,13 +166,13 @@ body {
 
 ////////////////////////////////////////////
 
-// Tablet Main Page 
+// Tablet Main Page
 @media @tablet {
-  nav.top  {
+  nav.top {
     display: flex;
     justify-content: center;
     margin-right: 0px;
-    
+
     .Link {
       padding: 5px 20px;
     }
@@ -196,11 +186,11 @@ body {
 
   .Group1 {
     height: 84rem;
-    
-    .container{
+
+    .container {
       display: flex;
       flex-direction: column;
-      
+
       .name1 {
         margin: 20px 0px;
       }
@@ -210,10 +200,10 @@ body {
   .Group3 {
     height: 118rem;
 
-    .container{
+    .container {
       display: flex;
       flex-direction: column;
-      
+
       .name1 {
         margin: 20px 0px;
       }
@@ -221,20 +211,19 @@ body {
   }
 }
 
-
 // Phone Main Page
 @media @phone {
   body {
     width: 100%;
 
-    nav.top  {
+    nav.top {
       .flex-layout_2(column, center);
-  
+
       .Link {
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 10px
+        padding: 10px;
       }
     }
   }
