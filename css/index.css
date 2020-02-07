@@ -134,14 +134,16 @@ html {
 }
 html,
 body {
-  font-family: "Slabo+27px&display=swap";
+  font-family: "Slabo 27px";
 }
-h1,
+h1 {
+  font-family: "Russo One";
+}
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Russo+One&display=swap";
+  font-family: "Slabo 27px";
 }
 h2 {
   font-size: 3.2rem;
@@ -379,7 +381,7 @@ body .imgs img {
 .Group3 .container .name1 .nameB {
   margin: 20px 0px;
 }
-@media (max-width: 800px) {
+@media (max-width:800px) {
   nav.top {
     display: flex;
     justify-content: center;
@@ -412,7 +414,7 @@ body .imgs img {
     margin: 20px 0px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   body {
     width: 100%;
   }
