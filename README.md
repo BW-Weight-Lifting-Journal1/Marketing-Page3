@@ -4,4 +4,4 @@ Main Page
 
 About Us Page
 
-Demo: https://weightliftingjournalmp.netlify.com/
+Website Link: https://weightliftingjournalmp.netlify.com/
